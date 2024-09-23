@@ -347,8 +347,49 @@ img {
 }
 
 /*=============== ABOUT ===============*/
+.sobre__container{
+  row-gap: 8rem;
+}
 
+.sobre__data{
+  text-align: center;
+}
 
+.sobre__description{
+  margin-bottom: 2rem;
+}
+
+.sobre__list{
+  text-align: initial;
+  grid-template-columns: repeat(2, 130px);
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.sobre__list-item{
+  display: flex;
+  column-gap: .5rem;
+  color: var(--title-color);
+}
+
+.sobre__images{
+  position: relative;
+  justify-self: center;
+}
+
+.sobre__img-1{
+  width: 200px;
+  border: 5px solid var(--body-color);
+  position: absolute;
+  top: -5rem;
+  left: 6rem;
+}
+
+.sobre__img-2{
+  width: 250px;
+  margin-right: 2.5rem;
+}
 /*=============== SERVICES ===============*/
 
 
